@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adopta tu mascota</title>
+
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- MENSAJE -->
+        <nav class="navbar text-bg-dark" id="recordatorio">
+            <div class="container-fluid mx-5">
+
+                <span class="navbar-text text-light">
+                    Lorem ipsum dolor sit amet
+                </span>
+
+                <span class="navbar-text text-light ms-auto me-2 px-4 d-none d-lg-block">
+                    Lorem ipsum dolor sit amet
+                </span>
+
+                <span class="navbar-text text-light">
+                    <i class="bi bi-telephone-outbound-fill"></i>
+                </span>
+
+            </div>
+        </nav>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+            <div class="container-fluid fw-bold"> <!-- Menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Logotipo fuera -->
+                <a class="navbar-brand col-md-6 mx-auto d-block d-sm-none -flex justify-content-center my-3"
+                    href="#">ENCARIÑA❥TE</a>
+
+                <!-- Navbar desplegado -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                        <!-- Opciones -->
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-muted mx-4" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link col-md-6 text-muted mx-4" href="#">Features</a>
+                            </li>
+
+                            <!-- Logotipo dentro -->
+                            <a class="navbar-brand fw-bolder mx-4 d-none d-lg-block" href="#">ENCARIÑA❥TE</a>
+
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-muted mx-4" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-muted mx-4" href="#">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BANNER CARRUSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Assets/Imgs/horizontal-doggy.jpg" class="d-block w-100 h-25" alt="Imagen 1">
+
+                <div class="carousel-caption text-start top-50">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h2 class="my-0">Lorem ipsum dolor sit amet, consectetur</h2>
+                                <p class=" fw-normal d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <a href="#" class="btn btn-primary my-2 py-2 px-5 rounded-pill">Saber más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="Assets/Imgs/horizontal-doggy.jpg" class="d-block w-100 h-25" alt="Imagen 2">
+                <div class="carousel-caption text-start top-50">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h2>Ut enim ad minim veniam, quis nostrud exercitation</h2>
+                                <p class="fw-normal d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <a href="#" class="btn btn-primary py-2 px-5 rounded-pill">Saber más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <img src="Assets/Imgs/horizontal-doggy.jpg" class="d-block w-100 h-25" alt="Imagen 3">
+                <div class="carousel-caption text-start top-50">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h2>Duis aute irure dolor in reprehenderit in voluptate</h2>
+                                <p class="fw-normal d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                                <a href="#" class="btn btn-primary py-2 px-5 rounded-pill">Saber más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- CARRUSEL INFO -->
+    <div class="container text-center my-5 col-md-6" id="Nosotros">
+        <h2 class="fw-bold pb-3">Nuestra historia</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+    </div>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" id="Videos">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active"> <!-- Video 1 -->
+                <div class="ratio ratio-16x9 mx-auto my-3 rounded-5" style="max-width: 70%; overflow: hidden;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hHbInpC5xVg?si=V-oAkmea8BOJ-Khf"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="carousel-item"> <!-- Video 2 -->
+                <div class="ratio ratio-16x9 mx-auto my-3 rounded-5" style="max-width: 70%; overflow: hidden;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ggrmzjh5qsc?si=wRts8Oz_dXvOgYyF"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="carousel-item"> <!-- Video 3 -->
+                <div class="ratio ratio-16x9 mx-auto my-3 rounded-5" style="max-width: 70%; overflow: hidden;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-4zGSrgW8lA?si=IPGFm_vq18DROqm0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- FORMAS DE AYUDAR -->
+    <div class="container" id="Ayudanos">
+        <div class="row d-flex align-items-center">
+            <h2 class="fw-bold col-md-6 mt-4 text-center">Y tú... ¿cómo ayudarás?</h2>
+        </div>
+
+        <div class="container" id="Imgs">
+            <div class="row d-flex justify-content-center">
+
+                <div class="col-md-4" id="Adoptar"> <!-- Card 1 -->
+                    <div class="card text-light mt-3 border-0" style="height: 500px;">
+                        <img src="Assets/Imgs/michael-g-YmRxN5PFHjY-unsplash.jpg" class="card-img rounded-5 "
+                            alt="Adoptar" style="object-fit: cover; height: 100%;">
+
+                        <div class="card-img-overlay">
+                            <h5 class="d-inline-block border rounded-3 px-4 py-2 bg-white text-muted fw-bold">Adoptar
+                            </h5>
+                        </div>
+
+                        <div class="card-img-overlay d-flex justify-content-between flex-column">
+                            <i class="bi bi-arrow-up-right-circle-fill position-absolute bottom-0 end-0 m-3"
+                                style="font-size: 50px; color: white;"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="Donar"> <!-- Card 2 -->
+                    <div class="card text-light mt-3 border-0" style="height: 238px;">
+                        <img src="Assets/Imgs/michael-g-wiv5m-cjdJM-unsplash.jpg" class="card-img rounded-5" alt="Donar"
+                            style="object-fit: cover; height: 100%;">
+
+                        <div class="card-img-overlay">
+                            <h5 class="d-inline-block border rounded-3 px-4 py-2 bg-white text-muted fw-bold">Donar</h5>
+                        </div>
+
+                        <div class="card-img-overlay d-flex justify-content-between flex-column">
+                            <i class="bi bi-arrow-up-right-circle-fill position-absolute bottom-0 end-0 m-3"
+                                style="font-size: 35px; color: white;"></i>
+                        </div>
+                    </div>
+
+                    <div class="card text-light mt-3 border-0" id="Socio" style="height: 238px;"> <!-- Card 3 -->
+                        <img src="Assets/Imgs/michael-g-uCtmEH8I3FQ-unsplash.jpg" class="card-img rounded-5"
+                            alt="Ser socio" style="object-fit: cover; height: 100%;">
+
+                        <div class="card-img-overlay">
+                            <h5 class="d-inline-block border rounded-3 px-4 py-2 bg-white text-muted fw-bold">Ser socio
+                            </h5>
+                        </div>
+
+                        <div class="card-img-overlay d-flex justify-content-between flex-column">
+                            <i class="bi bi-arrow-up-right-circle-fill position-absolute bottom-0 end-0 m-3"
+                                style="font-size: 35px; color: white;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CALENDARIO -->
+    <div class="container my-5 pt-4" id="Calendario">
+        <div class="card mb-3 mx-auto rounded-5" style="max-width: 1000px; height: auto;">
+            <div class="row g-0 justify-content-center align-items-center">
+
+                <div class="col-12 col-md-5 p-3 d-flex flex-column justify-content-center align-items-end"> <!-- Descripcion -->
+                    <div class="card-body text-end">
+                        <h4 class="card-title fw-bold">Card title</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p class="card-text"><small class="text-body-secondary">Actualizado el mes de Septiembre</small>
+                        </p>
+                        <a href="#" class="btn btn-primary mb-0 mt-1 px-5 rounded-pill">¡Conocer más!</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 p-3 m-3 d-flex justify-content-center align-items-center"> <!-- Calendario -->
+                    <table class="table table-bordered text-center">
+                        <thead>
+                            <tr>
+                                <th colspan="7">October 2024</th>
+                            </tr>
+                            <tr>
+                                <th>Su</th>
+                                <th>Mo</th>
+                                <th>Tu</th>
+                                <th>We</th>
+                                <th>Th</th>
+                                <th>Fr</th>
+                                <th>Sa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td>12</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td>31</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- IMAGENES -->
+    <div class="container" id="Galeria">
+        <div class="row">
+            <h3 class="fw-bold mb-4">Ellos esperan un hogar</h3>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active"> <!-- Parte 1 -->
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card" style="border: none;">
+                                    <img src="Assets/Imgs/michael-g-uCtmEH8I3FQ-unsplash.jpg"
+                                        class="card-img d-block w-100 rounded-5" alt="Imagen 1">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="border: none;">
+                                    <img src="Assets/Imgs/michael-g-YmRxN5PFHjY-unsplash.jpg"
+                                        class="card-img d-block w-100 rounded-5" alt="Imagen 2">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="border: none;">
+                                    <img src="Assets/Imgs/michael-g-wiv5m-cjdJM-unsplash.jpg"
+                                        class="card-img d-block w-100 rounded-5" alt="Imagen 3">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="border: none;">
+                                    <img src="Assets/Imgs/michael-g-YmRxN5PFHjY-unsplash.jpg"
+                                        class="card-img d-block w-100 rounded-5" alt="Imagen 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item"> <!-- Parte 2 -->
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card" style="border: none;">
+                                    <img src="Assets/Imgs/michael-g-wiv5m-cjdJM-unsplash.jpg"
+                                        class="card-img d-block w-100 rounded-5" alt="Imagen 5">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="border: none;">
+                                    <img src="Assets/Imgs/michael-g-YmRxN5PFHjY-unsplash.jpg"
+                                        class="card-img d-block w-100 rounded-5" alt="Imagen 6">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="border: none;">
+                                    <img src="Assets/Imgs/michael-g-uCtmEH8I3FQ-unsplash.jpg"
+                                        class="card-img d-block w-100 rounded-5" alt="Imagen 7">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="border: none;">
+                                    <img src="Assets/Imgs/michael-g-wiv5m-cjdJM-unsplash.jpg"
+                                        class="card-img d-block w-100 rounded-5" alt="Imagen 8">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="botones d-flex justify-content-center mb-4 mt-3 gap-4">
+                    <a href="#" class="btn btn-primary my-1 px-5 rounded-pill">¡Conocer más!</a>
+                    <a href="#" class="btn btn-primary my-1 px-5 rounded-pill">¡Conocer más!</a>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="container my-5" id="Formulario">
+        <div class="card mb-3 mx-auto rounded-5" style="max-width: 1000px; height: auto;">
+            <div class="row g-0 d-flex justify-content-center align-items-center">
+
+                <div class="col-12 col-md-4 p-3 m-3"> <!-- Img -->
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <img src="Assets/Imgs/michael-g-uCtmEH8I3FQ-unsplash.jpg"
+                            class="card-img d-block w-100 rounded-5" alt="Imagen 1"
+                            style="height: 300px; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 p-3"> <!-- Descripcion -->
+                    <div class="card-body">
+                        <h4 class="card-title fw-bold">¿Tienes dudas?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="#" class="btn btn-primary my-3 px-5 rounded-pill">Quiero contactar</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- SUSCRIPCIÓN -->
+    <div class="container" id="Suscripcion"> <!-- Descripcion -->
+        <div class="container-fluid col-md-6 text-center">
+            <h3 class="fw-bold mb-4">¡Sé el primero en enterarte!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea
+                commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla
+                pariatur.</p>
+        </div>
+
+        <div class="container text-center" id="form-01"> <!-- Formulario -->
+            <div class="row justify-content-center">
+
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" placeholder="First name *" aria-label="First name">
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" placeholder="Last name *" aria-label="Last name">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center" id="form-01">
+            <div class="row justify-content-center">
+
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" placeholder="Email *" aria-label="Email">
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="form-control" placeholder="Cellphone" aria-label="Cellphone">
+                </div>
+            </div>
+
+            <a href="#" class="btn btn-primary my-3 px-5 rounded-pill">Suscribirme</a>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="container-fluid bg-light" id="footer">
+        <div class="p-5 row">
+
+            <div class="col-12 col-md-6 d-flex flex-column"> <!-- Logotipo -->
+                <a class="navbar-brand fw-bolder fs-5" href="#">ENCARIÑA❥TE</a>
+                <p>
+                    <a href="#" class="text-decoration-none">Terms of Service</a> I
+                    <a href="#" class="text-decoration-none"> Privacy</a>
+                </p>
+
+                <div class="d-flex gap-2 mt-3 mb-5"> <!-- Rrss -->
+                    <img src="path-to-image1.jpg" class="rounded-circle text-bg-dark" alt="Image 1" width="50"
+                        height="50">
+                    <img src="path-to-image2.jpg" class="rounded-circle text-bg-dark" alt="Image 2" width="50"
+                        height="50">
+                    <img src="path-to-image3.jpg" class="rounded-circle text-bg-dark" alt="Image 3" width="50"
+                        height="50">
+                    <img src="path-to-image3.jpg" class="rounded-circle text-bg-dark" alt="Image 3" width="50"
+                        height="50">
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex flex-wrap justify-content-md-end gap-5"> <!-- Links -->
+                <ul class="list-unstyled me-4">
+                    <h4 class="fw-bold">Title 001</h4>
+                    <li><a href="#" class="text-decoration-none text-muted">About Us</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Meet The Team</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">What We Do</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Careers</a></li>
+                </ul>
+
+                <ul class="list-unstyled me-4">
+                    <h4 class="fw-bold">Title 002</h4>
+                    <li><a href="#" class="text-decoration-none text-muted">About Us</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Meet The Team</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">What We Do</a></li>
+                    <li><a href="#" class="text-decoration-none text-muted">Careers</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
